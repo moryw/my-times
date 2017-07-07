@@ -1,5 +1,7 @@
-/*universal stylings*/
-
+/* universal stylings */
+body {
+  font-family: Georgia;
+}
 
 
 /* Header Styles */
@@ -55,14 +57,14 @@ a {
   color: black;
 }
 
-/*content styling*/
+/* content styling */
 
 .main-content {
   padding-top: 116px;
   display: flex;
 }
 
-/*column styling*/
+/* column styling */
 
 .column {
   border: 1px solid black;
@@ -83,10 +85,40 @@ a {
   width: 240px;
 }
 
+/* lead story */
 
+.lead-image {
+  background-image: url(../images/img-story-main.png);
+}
 
+/* large story 1  */
 
+.fall-canceled {
+  background-image: url(../images/img-story-2.png);
+}
 
+/*large story 2 */
+
+.pop-culture {
+  background-image: url(../images/cameraman.png);
+}
+
+/*medium story 2*/
+
+.cat-ceo {
+  background-image: url(../images/img-story-1.png);
+}
+
+/* images */
+
+.image-content {
+  display: flex;
+  height: 300px;
+}
+
+.image-content span {
+  display: flex;
+}
 
 
 
