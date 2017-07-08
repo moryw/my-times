@@ -3,6 +3,15 @@ body {
   font-family: Georgia;
 }
 
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 
 /* Header Styles */
 
@@ -19,6 +28,8 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+
+
 
 /* Logo Styling */
 
@@ -40,6 +51,8 @@ header {
   min-width: 75px;
 }
 
+
+
 /* Nav Styling */
 
 header nav {
@@ -57,68 +70,181 @@ a {
   color: black;
 }
 
+
+
 /* content styling */
 
 .main-content {
   padding-top: 116px;
   display: flex;
+  justify-content: space-between;
 }
 
-/* column styling */
+
+
+/* general column styling */
 
 .column {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: flex;
   flex-flow: column wrap;
-  margin-right: 32px;
 }
 
-.column.large {
-  width: 630px;
-}
 
-.column.medium {
-  width: 300px;
-}
-
-.column.small {
-  width: 240px;
-}
-
-/* lead story */
-
-.lead-image {
-  background-image: url(../images/img-story-main.png);
-}
-
-/* large story 1  */
-
-.fall-canceled {
-  background-image: url(../images/img-story-2.png);
-}
-
-/*large story 2 */
-
-.pop-culture {
-  background-image: url(../images/cameraman.png);
-}
-
-/*medium story 2*/
-
-.cat-ceo {
-  background-image: url(../images/img-story-1.png);
-}
 
 /* images */
 
 .image-content {
   display: flex;
   height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-top: 15px;
 }
 
-.image-content span {
-  display: flex;
+
+
+/* large column */
+
+.column.large {
+  width: 630px;
+  margin-right: 32px;
 }
+
+.lead-image {
+  background-image: url(../images/img-story-main.png);
+  font-size: 40px;
+}
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.large-story {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+  justify-content: center;
+}
+
+.large-story-content {
+  height: 250px;
+}
+
+.fall-canceled {
+  background-image: url(../images/img-story-2.png);
+}
+
+.pop-culture {
+  background-image: url(../images/cameraman.png);
+}
+
+
+
+/* medium column */
+
+.column.medium {
+  width: 300px;
+  margin-right: 32px;
+}
+
+.cat-ceo {
+  background-image: url(../images/img-story-1.png);
+}
+
+.medium-story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.story-content {
+  justify-content: center;
+}
+
+
+
+/* small column */
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-bites h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 41px;
+}
+
+.bite {
+  display: flex;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
+
+
+
+/* story narratives */
+
+.narrative {
+  font-size: 17px;
+  color: black;
+  margin-top: 16px;
+}
+
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.info {
+  display: inline-flex;
+  align-items: center;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+footer nav {
+  padding-left: 25px; 
+}
+
+
+
+
+
+
 
 
 
