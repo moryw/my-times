@@ -1,14 +1,15 @@
 /* universal stylings */
 body {
   font-family: Georgia;
+  margin: 0;
 }
 
 h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
 }
 
 
@@ -78,7 +79,7 @@ a {
   padding-top: 116px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 78px auto;
+  margin: 0 8px 78px 8px;
 }
 
 
