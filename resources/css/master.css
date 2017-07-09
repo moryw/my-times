@@ -79,17 +79,14 @@ a {
   padding-top: 116px;
   display: flex;
   justify-content: space-around;
-  margin: 0 8px 78px 8px;
+  margin: 0 auto 78px auto;
 }
-
-/* github test */
 
 
 
 /* general column styling */
 
 .column {
-  /*border: 1px solid black;*/
   display: flex;
   flex-flow: column wrap;
 }
@@ -118,7 +115,6 @@ a {
 
 .column.large {
   width: 630px;
-  margin-right: 32px;
 }
 
 .lead-image {
@@ -163,7 +159,6 @@ a {
 
 .column.medium {
   width: 300px;
-  margin-right: 32px;
 }
 
 .cat-ceo {
