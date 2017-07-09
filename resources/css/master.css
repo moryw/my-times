@@ -78,7 +78,7 @@ a {
 .main-content {
   padding-top: 116px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 8px 78px 8px;
 }
 
